@@ -1,0 +1,46 @@
+/*Selector {
+  Property: value;
+
+}*/
+
+*{
+  text-align: left;
+}
+body{
+  /*background-image: url("le_decameron.jpg");*/
+}
+
+h1, p {
+  color: red;
+  text-align: center;
+  border: 2px dashed purple;
+  cursor: help;
+}
+
+h1+p:hover{
+color: #222222;
+}
+
+
+p{
+  color: darkolivegreen;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.concept{
+  border: 5px dashed darkred;
+}
+ul{
+
+}
+
+li{
+  display: inline;
+}
+
+#div1{
+  background-color: rgba(0,0,255,0.5);
+}
+#div2 {
+  background-color: rgba(0,0,0,0.5);
+}
